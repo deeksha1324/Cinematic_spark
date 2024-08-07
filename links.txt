@@ -1,0 +1,15 @@
+
+d2bad6e42765fba3854d90bb2762cab2
+https://api.themoviedb.org/3/
+
+search= https://api.themoviedb.org/3/search/movie?api_key=d2bad6e42765fba3854d90bb2762cab2&include_adult=false&language=en-US&page=1
+
+const now_playing = 'https://api.themoviedb.org/3/movie/now_playing?api_key=d2bad6e42765fba3854d90bb2762cab2&language=en-US&page=1';
+
+const popular = 'https://api.themoviedb.org/3/movie/popular?api_key=d2bad6e42765fba3854d90bb2762cab2&language=en-US&page=1';
+
+const top_rated = 'https://api.themoviedb.org/3/movie/top_rated?api_key=d2bad6e42765fba3854d90bb2762cab2&language=en-US&page=1';
+
+const upcoming = 'https://api.themoviedb.org/3/movie/upcoming?api_key=d2bad6e42765fba3854d90bb2762cab2&language=en-US&page=1';
+
+const individual = 'https://api.themoviedb.org/3/movie/{movie_id}?api_key=d2bad6e42765fba3854d90bb2762cab2&language=en-US&page=1';
