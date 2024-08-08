@@ -1,7 +1,7 @@
 import './App.css';
 import AllRoutes from './routes/AllRoutes';
 import { Footer, Header} from './components/index';
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 
 
 function App() {
