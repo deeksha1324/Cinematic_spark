@@ -9,7 +9,7 @@ export default function MovieList({apiPath, title}) {
 
   const {data:movies} = useFetch(apiPath)
 
-  const pagetitle=useTitle(title);
+  useTitle(title);
 
   // useEffect(()=>{
   //   document.title=`${title}/Cinematic Spark`

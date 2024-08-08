@@ -17,7 +17,7 @@ export default function Footer() {
                     <a href="https://www.instagram.com/" rel='noreferrer' target="_blank" className="hover:underline me-4 md:me-6">Instagram</a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/" target="_blank" className="hover:underline me-4 md:me-6">Facebook</a>
+                    <a href="https://www.facebook.com/" rel="noreferrer" target="_blank" className="hover:underline me-4 md:me-6">Facebook</a>
                 </li>
             </ul>
           </div>

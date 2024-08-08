@@ -13,7 +13,7 @@ export default function Search({apiPath}) {
 
   const {data:movies} = useFetch(apiPath, queryTerm);
 
-  const pagetitle=useTitle(`Search results for ${queryTerm}`)
+  useTitle(`Search results for ${queryTerm}`)
 
   // useEffect(()=>{
   //   document.title=`Search results for ${queryTerm}/Cinematic Spark`

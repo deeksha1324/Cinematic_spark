@@ -9,6 +9,7 @@ const params =useParams();
 console.log(params);
 const [data, setData] =useState([]);
 const image= data.poster_path? (`https://image.tmdb.org/t/p/w500//${data.poster_path}`)  : logo ;
+//eslint-disable-next-line
 const pagetitle=useTitle(data.title)
 
 
